@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="web/Poppins-Bold.ttf">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <title>About</title>
+</head>
+<body>
+    <section class="sup-header">
+      <nav>
+          <a href="index.html"><h2>TATUFF</h2></a>
+          <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="course.html">COURSE</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars"  onclick="showMenu()"></i>
+      </nav>
+       <h1>ABOUT US</h1>
+    </section>
+<!-- About us content -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio, sunt cumque sapiente minus nesciunt provident fuga consectetur iure inventore eos dignissimos consequatur neque dolorum, sed maxime atque facilis dolorem officia. Dolorem blanditiis natus libero fuga quam possimus tenetur rem?</p>
+            <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="web/img/rasm1.jpg">
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<section class="footer">
+   <h4>ABOUT US</h4>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ab reprehenderit alias. Dolorem debitis <br> libero alias quas quidem repellendus ipsa nostrum nisi ad quo!</p>
+   <div class="icons">
+       <i class="fa fa-facebook"></i>
+       <i class="fa fa-twitter"></i>
+       <i class="fa fa-instagram"></i>
+       <i class="fa fa-linkedin"></i>
+       <p>Made with by  <i class="fa fa-heart-o"></i>Xurshidbek</p>
+   </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Java script -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+#site{
+    width: 100%;
+}
+#left{
+    width: 25%;
+    height: 100vh;
+    overflow-y: auto;
+    float: left;
+    border-right: 1px solid rgb(145, 145, 145);
+}
+.fa-twitter{
+    color: rgb(9, 204, 253);
+    width: 100px;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+.logo i{
+    font-size: 40px;
+}
+.menu a{
+    display: block;
+    padding-left: 20px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.menu a:hover{
+    color: rgb(9, 204, 253);
+}
+.menu .fa{
+    margin-right: 10px;
+}
+.menu button{
+    width: 155px;
+    padding: 10px;
+    background-color: rgb(9, 204, 253);
+    color: white;
+    margin-left: 10%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+#center{
+    width: 40%;
+    float: left;
+    border-right: 1px solid gray;
+    /* background-color: gray; */
+}
+.tepa{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+}
+.home{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid rgb(116, 114, 114);
+}
+.home h2{
+    float: left;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.home .fa{
+    float: right;
+    margin-top: 5px;
+    color: rgb(9, 204, 253);
+}
+.happening{
+    width: 100%;
+    height: 100px;
+}
+.pic{
+    width: 10%;
+    float: left;
+}
+.pic img{
+    width: 90%;
+}
+.yozuv{
+    width: 89%;
+    float: left;
+}
+.yozuv input{
+    width: 90%;
+    border: none;
+    margin-bottom: 20px;
+}
+.yozuv input::placeholder{
+    color: rgb(70, 70, 68);
+}
+.ikon{
+    float: left;
+}
+.but{
+    float: right;
+    
+}
+.but button{
+    padding: 8px;
+    color: white;
+    background-color: rgb(9, 204, 253);
+    border-radius: 20px;
+    border: none;
+}
+.lenta{
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+}
+.foto{
+    width: 10%;
+    float: left;
+}
+.foto img{
+    width: 95%;
+    border-radius: 100%;
+}
+.tweet{
+    width: 89%;
+    float: left;
+    border-bottom: 1px solid gray;
+    /* margin-top: 0; */
+}
+.nik{
+    margin-top: -10px;
+    font-size: 10px;
+}
+.nik h3{
+    float: left;
+}
+.nik font{
+    color: sienna;
+    font-weight: 200;
+}
+.nik i{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.post{
+    margin-top: -15px;
+}
+.post img{
+    width: 80%;
+}
+.post video{
+    width: 100%;
+}
+.links i{
+    margin-right: 40px;
+}
+
+#right{
+    width: 29%;
+    float: left;
+    padding-left: 10px;
+}
+#right input{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(202, 197, 197);
+    padding: 5px 10px;
+    
+}
+.trends{
+    width: 100%;
+    background-color: rgb(177, 176, 176);
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.trend h1{
+    font-size: 25px;
+    float: left;
+    margin-top: -5px;
+}
+.trend i{
+    float: right;
+}
+.for{
+    border-top: 1px solid white;
+}
+.for h5{
+    color: gray;
+}
+.card{
+    width: 90%;
+    height: 70px;
+    margin: 5px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.left-card{
+    width: 70%;
+    float: left;
+    height: 100%;
+    overflow-y: hidden;
+    /* border: 1px solid blue; */
+    
+}
+.left-card h2{
+    color: gray;
+    font-size: 17px;
+    margin: -3px 0 -10px 5px;
+}
+.left-card p{
+    font-size: 13px;
+    margin-left: 5px;
+    
+}
+.right-card{
+    width: 29%;
+    height: 100%;
+    float: left;
+    background-color: black;
+}
+.right-card img{
+    width: 100%;
+}
+
+
+
+
+
+
+.clear{
+    clear: both;
+}
